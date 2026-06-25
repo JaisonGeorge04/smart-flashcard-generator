@@ -66,7 +66,6 @@ def calculate_sentence_scores(sentences: list, all_text: str) -> dict:
         
     return scores
 
-
 def generate_flashcards_spacy(text: str, max_cards: int = 7) -> list:
     """Generates flashcards using spaCy."""
     doc = nlp(text)
