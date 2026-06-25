@@ -100,7 +100,6 @@ LEITNER_INTERVALS = {
 def read_root():
     return {"message": "Welcome to Smart Flashcard Generator API!"}
 
-
 @app.post("/auth/register", status_code=status.HTTP_201_CREATED)
 def register(user_data: UserAuth, db: Session = Depends(db_mod.get_db)):
     # Check if user already exists
