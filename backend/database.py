@@ -37,7 +37,6 @@ class FlashcardSet(Base):
     user = relationship("User", back_populates="sets")
     cards = relationship("Flashcard", back_populates="set", cascade="all, delete-orphan")
 
-
 class Flashcard(Base):
     __tablename__ = "flashcards"
 
