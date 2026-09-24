@@ -22,7 +22,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
 1. **Sentence Tokenization & Filtering**: The note input is first segmented into distinct sentences using `spaCy` (or sentence boundaries in NLTK). Short or irrelevant text lines are pruned.
 2. **Frequency-based Sentence Ranking**: We rank sentences using an information-density score based on word frequencies. Sentences rich in content words receive higher priority for flashcard candidates, preventing clutter.
 3. **Definition Verb Parsing (Dependency Trees)**:
-   - We inspect each sentence's dependency structure to find copula linkages (e.g. `[Term] is/are [Definition]`) or definition verbs (e.g. `refers to`, `means`, `represents`, `defines`).
+   - We inspect each sentence's dependency structure to find copula linkages (e.g. `[Term] is/are [Definition]`) or definition verbs (e.g., `refers to`, `means`, `represents`, `defines`).
    - We verify the subject (`nsubj` dependency label) is active and is **not** a pronoun (`token.pos_ != "PRON"` or common pronouns like *they, it, he, she*).
    - If a valid definition structure is found, we extract the term and definition to construct a clean Q&A card (e.g. *Question*: `"What is Photosynthesis?"` / *Answer*: `"[Full Sentence definition]"`).
 4. **Cloze Deletion (Fill-in-the-blank) Fallback**:
