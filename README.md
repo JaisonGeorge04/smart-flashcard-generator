@@ -1,6 +1,6 @@
 # SmartCards - Smart Flashcard Generator (Option A)
 
-SmartCards is a web-based educational tool that helps students automatically convert their textbooks, study notes, or lecture transcripts into structured question-and-answer and Cloze deletion flashcards. It implements a spaced repetition system using the Leitner method to ensure difficult cards appear more frequently in review sessions.
+SmartCards is a web-based educational tool that helps students automatically convert their textbooks, study notes, or lecture transcripts into structured question-and-answer and Cloze deletion flashcards. It uses a spaced repetition system based on the Leitner method to ensure difficult cards appear more often in review sessions.
 
 ---
 
