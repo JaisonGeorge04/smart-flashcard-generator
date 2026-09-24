@@ -24,7 +24,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
 3. **Definition Verb Parsing (Dependency Trees)**:
    - We inspect each sentence's dependency structure to find copula linkages (eg., `[Term] is/are [Definition]`) or definition verbs (eg., `refers to`, `means`, `represents`, `defines`).
    - We verify the subject (`nsubj` dependency label) is active and is **not** a pronoun (`token.pos_ != "PRON"` or common pronouns like *they, it, he, she*).
-   - If a valid definition structure is found, we extract the term and definition to construct a clean Q&A card (e.g. *Question*: `"What is Photosynthesis?"` / *Answer*: `"[Full Sentence definition]"`).
+   - If a valid definition structure is found, we extract the term and definition to construct a clean Q&A card (eg., *Question*: `"What is Photosynthesis?"` / *Answer*: `"[Full Sentence definition]"`).
 4. **Cloze Deletion (Fill-in-the-blank) Fallback**:
    - For informative sentences that do not fit a direct definition pattern, we run Named Entity Recognition (NER) to look for highly relevant entities (such as locations, organizations, dates, or proper nouns).
    - If no entities are present, we extract noun chunks and score them based on length and technicality.
