@@ -19,7 +19,7 @@ SmartCards is a web-based educational tool that helps students automatically con
 
 Rather than simply splitting sentences or utilizing pre-defined static patterns, SmartCards uses a robust, rule-based semantic NLP pipeline to analyze the syntactic structure of the input notes:
 
-1. **Sentence Tokenization & Filtering**: The note input is first segmented into distinct sentences using `spaCy` (or sentence boundaries in NLTK). Short or irrelevant text lines are pruned.
+1. **Sentence Tokenization & Filtering**: The note input is first segmented into distinct sentences using `spaCy` (or sentence boundaries in NLTK). We Prune Short or irrelevant text lines.
 2. **Frequency-based Sentence Ranking**: We rank sentences using an information-density score based on word frequencies. Sentences rich in content words receive higher priority for flashcard candidates, preventing clutter.
 3. **Definition Verb Parsing (Dependency Trees)**:
    - We inspect each sentence's dependency structure to find copula linkages (e.g. `[Term] is/are [Definition]`) or definition verbs (e.g., `refers to`, `means`, `represents`, `defines`).
