@@ -59,7 +59,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
    ```bash
    uvicorn main:app --host 127.0.0.1 --port 8080
    ```
-   *The backend will be running at `http://127.0.0.1:8080`.*
+   *The backend will be running at `http://127.0.0.1:8080`.**
 
 ### 2. Run Frontend Client
 1. Navigate to the `frontend/` directory:
