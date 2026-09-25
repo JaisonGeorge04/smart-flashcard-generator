@@ -43,7 +43,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
    ```bash
    cd backend
    ```
-2. Create and activate a python virtual environment:
+2. Create and activate a Python virtual environment:
    ```bash
    python -m venv venv
    # On Windows:
