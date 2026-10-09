@@ -10,7 +10,7 @@ SmartCards is a web-based educational tool that automatically converts textbooks
 - **Styling**: Modern, premium custom Vanilla CSS featuring a dark glassmorphic design and interactive 3D card-flip animations.
 - **Backend**: FastAPI (Python 3.13)
 - **Database**: SQLite (SQLAlchemy ORM)
-- **Natural Language Processing (NLP)**: `spaCy` (specifically `en_core_web_sm` model) with syntax dependency parsing and Named Entity Recognition (NER), with a pure-Python `NLTK` fallback mechanism.
+- **Natural Language Processing (NLP)**: `spaCy` (specifically the `en_core_web_sm` model) with syntax dependency parsing and Named Entity Recognition (NER), with a pure-Python `NLTK` fallback mechanism.
 - **Security & Authentication**: Secure user login and registration using custom PBKDF2 password hashing (built-in SHA-256) and JWT-based authentication tokens.
 
 ---
