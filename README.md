@@ -28,7 +28,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
 4. **Cloze Deletion (Fill-in-the-blank) Fallback**:
    - For informative sentences that do not fit a direct definition pattern, we run Named Entity Recognition (NER) to look for highly relevant entities (such as locations, organizations, dates, or proper nouns).
    - If no entities are present, we extract noun chunks and score them based on length and technicality.
-   - The selected key term is hidden and replaced with `_______` to form a fill-in-the-blank question, with the hidden term serving as the correct answer.
+   - The selected key term is hidden and replaced with `______` to form a fill-in-the-blank question, with the hidden term serving as the correct answer.
 
 ---
 
