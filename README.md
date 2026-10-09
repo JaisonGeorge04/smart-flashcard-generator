@@ -53,7 +53,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
    ```
 3. Install the dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt 
    ```
 4. Run the FastAPI server:
    ```bash
