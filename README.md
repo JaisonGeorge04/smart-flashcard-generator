@@ -38,7 +38,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
 - Node.js (v24 or later)
 - Python (3.11 or later)
 
-### 1. Run Backend API
+### 1. Run the Backend API
 1. Navigate to the `backend/` directory:
    ```bash
    cd backend
