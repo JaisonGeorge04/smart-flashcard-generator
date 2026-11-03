@@ -69,7 +69,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
 2. Install npm packages:
    ```bash
    npm install
-   ```
+   ``` 
 3. Start the Vite development server:
    ```bash
    npm run dev
