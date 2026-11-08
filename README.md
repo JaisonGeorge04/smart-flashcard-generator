@@ -5,7 +5,7 @@ SmartCards is a web-based educational tool that automatically converts textbooks
 ------ 
      
 ## 🛠️ Tech Stack  
- 
+  
 - **Frontend**: React (Vite + TypeScript)
 - **Styling**: Modern, premium custom Vanilla CSS featuring a dark glassmorphic design and interactive 3D card-flip animations.
 - **Backend**: FastAPI (Python 3.13)
