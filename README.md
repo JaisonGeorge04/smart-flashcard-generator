@@ -3,7 +3,7 @@
 SmartCards is a web-based educational tool that automatically converts textbooks, study notes, or lecture transcripts into structured question-and-answer and Cloze deletion flashcards. It uses a Leitner-based spaced repetition system to ensure difficult cards appear more often during review sessions.
 
 ------ 
-     
+      
 ## 🛠️ Tech Stack  
   
 - **Frontend**: React (Vite + TypeScript)
