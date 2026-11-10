@@ -73,7 +73,7 @@ Rather than simply splitting sentences or utilizing pre-defined static patterns,
 3. Start the Vite development server:
    ```bash
    npm run dev
-   ```
+   ``` 
    *Open `http://localhost:5173` in your browser to view the application.*
 
 ---
